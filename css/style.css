@@ -1,0 +1,286 @@
+/*font*/
+@font-face{
+    font-family:PlayfairDisplay-Regular ;
+    src: url(../font/playfair-display/PlayfairDisplay-Regular.ttf);
+
+}
+@font-face{
+    font-family:PlayfairDisplay-Black ;
+    src: url(../font/playfair-display/PlayfairDisplay-Black.otf);
+
+}
+@font-face{
+    font-family:PlayfairDisplay-Bold ;
+    src: url(../font/playfair-display/PlayfairDisplay-Bold.otf);
+
+}
+@font-face{
+    font-family:PlayfairDisplay-Italic ;
+    src: url(../font/playfair-display/PlayfairDisplay-Italic.otf);
+
+}
+@font-face{
+    font-family:Ubuntu-L ;
+    src: url(../font/playfair-display/Ubuntu-L.ttf);
+
+}
+/*font*/
+/*common css*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family:PlayfairDisplay-Regular ;
+    font-size:16px ;
+    font-weight: 400;
+    color: #626262;
+}
+/*common css*/
+/*header start*/
+header{
+    padding: 25px 0;
+}
+.container{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+}
+.logo{
+    margin-top: 13px;
+    width: 10%;
+    float: left;
+    /* border: 1px solid black; */
+}
+logo a{
+
+}
+.logo a img{
+    width: 100%;
+
+}
+.menu{
+    width: 60%;
+    float: right;
+    /*border: 1px solid black;*/
+}
+.menu ul{
+    list-style: none;
+    float: right;
+
+
+}
+.menu ul li{
+    float: left;
+}
+
+.menu ul li a{
+    margin: 0 50px;
+    display: inline-block;
+    color:#626262;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.menu ul li a:hover{
+    color: #333333;
+}
+
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.banner img{
+    width: 100%;
+    margin-top: 10px;
+
+}
+/*banner end*/
+
+/*photodiary start*/
+
+.photodiary{
+    padding: 27px 0;
+
+}
+.container2{
+    width: 85%;
+    margin: 0 auto;
+}
+.text{}
+.text h4{
+    font-family:Ubuntu-L ;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.Leave4{
+    margin-bottom: 90px;
+}
+.text h1{
+    font-family:PlayfairDisplay-Regular ;
+    font-size: 30px;
+    font-weight:400 ;
+}
+.text p{
+    line-height: 24px;
+    margin: 32px 0px;
+}
+/*photodiary end*/
+/*lifestyle start*/
+
+.service-wrapper{
+    width: 85% ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.service-wrapper2{
+    width: 85% ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.S_1{
+    width: 45%;
+
+}
+.S_1 img{
+    width: 100%;
+}
+.S_1 h4{
+    font-family:Ubuntu-L ;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.S_1 h1{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+}
+
+
+.S_1 p {
+    margin-top: 30px;
+    line-height: 30px;
+}
+.s_p{
+}
+/*lifestyle end*/
+.sing{
+    background-color: #f0f0f0;
+    height: 250px;
+}
+.sing_text{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.sing_text h1{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 34px;
+    color: #333333;
+}
+.s_frome{
+    position: relative;
+    border-bottom: 2px solid;
+    width: 400px;
+    margin: 0 auto;
+}
+.s_frome input{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    outline: none;
+    font-size: 19px;
+    border: none;
+    width: 400px;
+    height: 40px;
+    background: #f0f0f0;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.s_frome button{
+    position: absolute;
+    background: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    top: 13px;
+    right: 0;
+}
+
+
+.button1{
+    width: 30%;
+    text-align: center;
+    margin: 200px auto;
+}
+.button1 button{
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 60px
+
+}
+
+.button1 button a{
+    text-decoration: none;
+    color: #626262;
+}
+
+
+.footer{
+    background-color:#f0f0f0;
+    padding: 25px 0;
+}
+.container4{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+}
+.footer-left{
+    float: left;
+    width: 50%;
+}
+.footer-left ul{}
+.footer-left ul li{
+    display: inline-block;
+}
+.footer-left ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #000000;
+    display: block;
+    padding: 10px 15px;
+}
+
+.footer-left ul li:last-child a{
+    font-family:Ubuntu-L ;
+    font-weight: 400;
+}
+.footer-right{
+    text-align: right;
+}
+.footer-right ul{}
+.footer-right ul li{
+    font-size: 19px;
+    display: inline-block;
+    color: black;
+}
+.footer-right ul li a{
+    display: block;
+    padding: 10px 15px;
+    color:#626262 ;
+}
